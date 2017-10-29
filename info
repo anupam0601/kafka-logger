@@ -1,0 +1,7 @@
+Kafka streaming approach for python logs:
+=========================================
+1. Use the logger module
+2. Now have a producer and a consumer kafka python script
+3. In the producer script read the most recent file or the desired file and send the contents
+to kafka broker
+4. Before starting producer.py start consumer.py
